@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "fomantic-ui": "^2.8.3",
+    "fomantic-ui-css": "^2.8.3",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.88.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "babel-plugin-import": "^1.13.0",
+    "babel-plugin-lodash": "^3.3.4",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-bundle-visualiser": "^1.2.0"
+  },
+  "scripts": {
+    "build": "parcel build index.html --no-source-maps",
+    "build-css": "gulp --cwd semantic build-css"
+  }
+}
