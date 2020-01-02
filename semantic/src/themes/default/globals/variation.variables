@@ -11,22 +11,22 @@
 
 /* Button */
 @variationButtonDisabled: true;
-@variationButtonAnimated: true;
-@variationButtonInverted: true;
-@variationButtonSocial: true;
-@variationButtonFloated: true;
-@variationButtonCompact: true;
-@variationButtonBasic: true;
-@variationButtonTertiary: true;
+@variationButtonAnimated: false;
+@variationButtonInverted: false;
+@variationButtonSocial: false;
+@variationButtonFloated: false;
+@variationButtonCompact: false;
+@variationButtonBasic: false;
+@variationButtonTertiary: false;
 @variationButtonLabeled: true;
 @variationButtonLabeledIcon: true;
-@variationButtonToggle: true;
-@variationButtonOr: true;
-@variationButtonAttached: true;
-@variationButtonFluid: true;
-@variationButtonCircular: true;
-@variationButtonGroups: true;
-@variationButtonSizes: @variationAllSizes;
+@variationButtonToggle: false;
+@variationButtonOr: false;
+@variationButtonAttached: false;
+@variationButtonFluid: false;
+@variationButtonCircular: false;
+@variationButtonGroups: false;
+@variationButtonSizes: false;
 
 /* Container */
 @variationContainerGrid: true;
@@ -64,17 +64,17 @@
 
 /* Icon */
 @variationIconDisabled: true;
-@variationIconInverted: true;
+@variationIconInverted: false;
 @variationIconLoading: true;
-@variationIconFitted: true;
-@variationIconLink: true;
-@variationIconCircular: true;
+@variationIconFitted: false;
+@variationIconLink: false;
+@variationIconCircular: false;
 @variationIconBordered: true;
-@variationIconRotated: true;
-@variationIconFlipped: true;
-@variationIconCorner: true;
-@variationIconGroups: true;
-@variationIconSizes: @variationAllSizes;
+@variationIconRotated: false;
+@variationIconFlipped: false;
+@variationIconCorner: false;
+@variationIconGroups: false;
+@variationIconSizes: false;
 
 /* Image */
 @variationImageDisabled: true;

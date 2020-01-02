@@ -1,9 +1,14 @@
 {
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.26",
+    "@fortawesome/free-brands-svg-icons": "^5.12.0",
+    "@fortawesome/free-solid-svg-icons": "^5.12.0",
+    "@fortawesome/react-fontawesome": "^0.1.8",
     "fomantic-ui": "^2.8.3",
     "fomantic-ui-css": "^2.8.3",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-icons": "^3.8.0",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^0.88.2"
   },
@@ -15,7 +20,8 @@
     "parcel-plugin-bundle-visualiser": "^1.2.0"
   },
   "scripts": {
-    "build": "parcel build index.html --no-source-maps",
-    "build-css": "gulp --cwd semantic build-css"
+    "build": "rimraf dist && rimraf semantic/dist && yarn build:css && yarn build:js",
+    "build:js": "parcel build index.html --no-source-maps",
+    "build:css": "gulp --cwd semantic build-css build-assets"
   }
 }

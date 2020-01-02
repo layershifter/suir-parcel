@@ -15,6 +15,13 @@
     },
     "clean": "dist/"
   },
+  "components": [
+    "reset",
+    "site",
+    "button",
+    "icon",
+    "transition"
+  ],
   "permission": false,
   "autoInstall": false,
   "rtl": false,
